@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+#counter {
+  font-size: 48px;
+  margin: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+#increaseBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+#decreaseBtn {
+  background-color: #f44336;
+  color: white;
+}
+#resetBtn {
+  background-color: #2196F3;
+  color: white;
+}
+#message {
+  font-size: 16px;
+  color: red;
+  margin: 10px;
+  min-height: 20px;
+  transition: opacity 0.5s;
+}
+.fade-out {
+  opacity: 0;
+}
+
+#toggleMaxBtn {
+  background-color: #ff9800;
+  color: white;
+}
+@media (max-width: 600px) {
+  #counter {
+    font-size: 10vw; 
+    margin: 15px;
+  }
+  h1 {
+    font-size: 24px; 
+  }
+  button {
+    padding: 12px 20px; 
+    font-size: 16px; 
+    width: 90%; 
+  }
+  #message {
+    font-size: 14px; 
+  }
+}
